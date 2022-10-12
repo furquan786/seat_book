@@ -3,6 +3,7 @@ import 'package:seat_booking/pages/home.dart';
 import 'package:seat_booking/widgets/theme_list.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(MyApp());
 }
 
